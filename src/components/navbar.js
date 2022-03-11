@@ -12,9 +12,8 @@ function Navigation() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#features">Account</Nav.Link>
       <Nav.Link href="#pricing">Cart</Nav.Link>
-      <NavDropdown title="Categories" id="collasible-nav-dropdown">
+      <NavDropdown title="Account" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -23,7 +22,7 @@ function Navigation() {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link eventKey={2} href="#memes">
+      <Nav.Link eventKey={1} href="#about">
         About Us
       </Nav.Link>
     </Nav>
