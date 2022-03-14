@@ -12,6 +12,11 @@ function Navigation() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
+      <Nav.Link eventKey={1} href="#about">
+        About Us
+      </Nav.Link>
+    </Nav>
+    <Nav>
       <Nav.Link href="#pricing">Cart</Nav.Link>
       <NavDropdown title="Account" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -20,11 +25,6 @@ function Navigation() {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link eventKey={1} href="#about">
-        About Us
-      </Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

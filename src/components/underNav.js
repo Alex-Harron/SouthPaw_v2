@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 function UnderNav(){
     return(
-    <Navbar bg="dark" variant="dark" sticky="top">
+    <Navbar bg="dark" variant="dark" >
         <Container>
             <Nav className="me-auto">
                 <Nav.Link href="#electronics">Electronics</Nav.Link>
